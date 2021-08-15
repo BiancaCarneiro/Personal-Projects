@@ -1,6 +1,3 @@
-<header>
-  <title>Some projects</title>
-</header>
 </body>
   <p><i>This environment will be used to store some of my personal projects and ideas</i></p> 
   <h1>Portifolio</h1>
@@ -24,7 +21,7 @@
       </dd>
   </dl>
 
-  <h1>Photo to black and white</p>
+  <h1>Photo to black and white</h1>
   <p>Latest changes: 15/08</p>
   <dl>
     <dt>Version 15/08</dt>
