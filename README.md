@@ -30,6 +30,8 @@
 
   <h2>Photo to black and white</h2>
   <p>Latest changes: 15/08</p>
+  <p>Libraries used: PIL and threading</p>
+  <h3>Version checking:</h3>
   <dl>
     <dt>Version 15/08</dt>
       <dd>
