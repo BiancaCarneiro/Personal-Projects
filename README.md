@@ -1,7 +1,7 @@
 </body>
   <p><i>This environment will be used to store some of my personal projects and ideas</i></p> 
   <h2>Portifolio</h2>
-  <p>Latest changes: 14/08</p>
+  <p>Latest changes: 16/08</p>
   <h3>Version checking:</h3>
   <dl>
     <dt>Version 14/08</dt>
@@ -9,6 +9,13 @@
         <ul>
           <li>Added pictures, links and some texts</li>
           <li>Chose the color palette</li>
+        </ul>
+      </dd>
+    <dt>Version 16/08</dt>
+      <dd>
+        <ul>
+          <li>Changed text fonts and color</li>
+          <li>Divided the text into two columns</li>
         </ul>
       </dd>
   </dl>

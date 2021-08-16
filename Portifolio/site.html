@@ -3,15 +3,22 @@
 <head>
     <title>Portifolio</title>
     <style>
-        h1{
+        .titles{
             font-family: 'Courier New', Courier, monospace;
             color:#f6f6f2;
+        }
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f6f6f2;
+            font-size: large;
         }
         img{
             max-height: 300px;
             max-width: 200px;
             height: auto;
             width: auto;
+            border: 5px solid rgb(7, 139, 139);
+            border-radius: 500%;
         }
         header{
             margin: -8px;
@@ -21,31 +28,46 @@
         body{
             background-color: #52a1a7;
         }
+        .column{
+            float:left;
+            width: 50%;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
       
 <header>
-    <h1>Portifolio</h1>
+    <h1 class="titles">Portifolio</h1>
 </header>
 <body>
-    <h2>Bianca Carneiro da Cunha Nunes Ferreira</h2>
-    <img src="Eu.jpeg" alt="Foto de Bianca: morena, branca, olhos castanhos e está vestinho uma blusa cinza">
-    <p>
-        <i>Computer Engineering student at UFPE<br>
-        She/Her (Ela/Dela)</i>
-    </p>
-    <p><b>Skills:</b> Python, C, Haskell, Verilog, C#, Assembly x86, ARMv8 and Arduino.</p>
-    <p><b>Where you can find me:</b><br>
-        &emsp;<a href="https://www.linkedin.com/in/bianca-carneiro-da-cunha-77222b191/">Linkedin</a><br>
-        &emsp;<a href="https://leetcode.com/bccnf/">LeetCode</a><br>
-        &emsp;<a href="https://www.tinkercad.com/users/ktm1UhjdPZW-bianca-carneiro-da-cunha">Tinkercad</a><br>
-        &emsp;<a href="http://lattes.cnpq.br/7849446439578091">Lattes</a><br>
-    </p>
-    <p><b>E-mail:</b><br>
-        &emsp;<a href="mailto:bianca.ccnf@gmail.com">bianca.ccnf@gmail.com</a><br>
-        &emsp;<a href="mailto:bianca.ccnf@hotmail.com">bianca.ccnf@hotmail.com</a><br>
-        &emsp;<a href="mailto:bccnf@cin.ufpe.br">bccnf@cin.ufpe.br</a>
-    </p>
+    <h2 class="titles">Bianca Carneiro da Cunha Nunes Ferreira</h2>
+    <div class:"row">
+        <div class="column">
+            <img src="Eu.jpeg" alt="Foto de Bianca: morena, branca, olhos castanhos e está vestinho uma blusa cinza">
+            <p>
+                <i>Computer Engineering student at UFPE<br>
+                She/Her (Ela/Dela)</i>
+            </p>
+            <h3>Skills:</h3><p>Python, C, Haskell, Verilog, C#, Assembly x86, ARMv8 and Arduino.</p>
+        </div>
+        <div class="column">
+            <h3>Where you can find me:</h3><p>
+                &emsp;<a href="https://www.linkedin.com/in/bianca-carneiro-da-cunha-77222b191/">Linkedin</a><br>
+                &emsp;<a href="https://leetcode.com/bccnf/">LeetCode</a><br>
+                &emsp;<a href="https://www.tinkercad.com/users/ktm1UhjdPZW-bianca-carneiro-da-cunha">Tinkercad</a><br>
+                &emsp;<a href="http://lattes.cnpq.br/7849446439578091">Lattes</a><br>
+            </p>
+            <h3>E-mails:</h3><p>
+                &emsp;<a href="mailto:bianca.ccnf@gmail.com">bianca.ccnf@gmail.com</a><br>
+                &emsp;<a href="mailto:bianca.ccnf@hotmail.com">bianca.ccnf@hotmail.com</a><br>
+                &emsp;<a href="mailto:bccnf@cin.ufpe.br">bccnf@cin.ufpe.br</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
     
