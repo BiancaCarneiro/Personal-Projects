@@ -6,7 +6,7 @@ import time
 # we will transform the image into gray tones by using the formula bellow:
 # new_pixel = RGB(c, c, c), where c = r*0.3 + g*0.59 + b*0.11 and old_pixel = RGB(r, g, b)
 start = time.time()
-num_threads = 1000
+num_threads = 8
 img_name = "pictures\Avatar the Last Airbender Backgrounds 3"
 img_ext = ".jpg"
 with Image.open(img_name + img_ext) as im:
