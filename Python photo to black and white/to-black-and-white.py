@@ -59,8 +59,8 @@ def transform_img():
     while threading.active_count() > 1:
         #print(threading.active_count())
         lixo = False
-    im.show()
-    im.save(img_name + "_gray" + img_ext)
+    #im.show()
+    #im.save(img_name + "_gray" + img_ext)
     print("--- %s seconds ---" % (time.time() - start))
 
 button1 = tk.Button(text='Click Me',command=transform_img, bg='brown',fg='white')

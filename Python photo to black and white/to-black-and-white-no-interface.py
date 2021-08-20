@@ -43,7 +43,7 @@ def main():
         a.append(Th(k))
         a[k].start()
 
-#im.show()
+
 main()
 lixo = True
 while threading.active_count() > 1:
@@ -51,4 +51,5 @@ while threading.active_count() > 1:
     lixo = False
 
 print("--- %s seconds ---" % (time.time() - start))
+#im.show()
 #im.save(img_name + "_gray" + img_ext)
