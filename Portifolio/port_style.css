@@ -47,12 +47,26 @@ a{
     display: block;
 }
 #change-text{
-    background-color: rgb(7, 139, 139); /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    position: absolute;
+    right: 500px;
+    top: 175px;
+    color: #f6f6f2;
+    background-color: #4d9297;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 30px;
+    border: 2px solid #f6f6f2;
+    border-radius: 20%;
+}
+#change-text:hover{
+    position: absolute;
+    right: 500px;
+    top: 175px;
+    color: #f6f6f2;
+    background-color: rgb(7, 139, 139);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid #f6f6f2;
+    border-radius: 20%;
 }
