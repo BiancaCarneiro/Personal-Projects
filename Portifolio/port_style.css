@@ -23,6 +23,33 @@ body{
 a{
     color: #f6f6f2;
 }
+.skills{
+    display: flex;
+    height: 100px;
+    background-color: #f6f6f2;
+}
+.skill_names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: relative;
+}
+.skill_levels{
+    display: flex;
+    position: absolute;
+}
+.skill_lines{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    position: relative;
+}
+.column_skill{
+    position: relative;
+    flex-grow: 1;
+}
 .titles{
     font-family: 'Courier New', Courier, monospace;
     color:#f6f6f2;
