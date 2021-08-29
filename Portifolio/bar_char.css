@@ -4,10 +4,6 @@
     --skills-width: 120px;
   }
   
-  ul {
-    list-style: none;
-  }
- 
   .d-flex {
     display: flex;
   }
@@ -25,13 +21,14 @@
   }
   
   #skills{
+      align-content: left;
       display: flex;
-      height: 300px;
+      height: 500px;
   }
 
   .div_skills{
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
       flex-grow: 1;
   }
@@ -64,38 +61,42 @@
   }
   
   .chart-wrapper .chart-skills li:nth-child(1)::before {
-    width: 100px;
-    transition-delay: var(--transition-delay);
+    width: 320px;
+    transition-delay: 0.6s;
   }
   
   .chart-wrapper .chart-skills li:nth-child(2)::before {
-    width: calc(75% - var(--skills-width));
-    transition-delay: calc(
-      var(--transition-delay) + var(--transition-delay-step)
-    );
+    width: 300px;
+    transition-delay: 0.6s;
   }
   
   .chart-wrapper .chart-skills li:nth-child(3)::before {
-    width: calc(62% - var(--skills-width));
-    transition-delay: calc(
-      var(--transition-delay) + var(--transition-delay-step) * 2
-    );
+    width: 280px;
+    transition-delay: 0.6s;
   }
   
   .chart-wrapper .chart-skills li:nth-child(4)::before {
-    width: calc(49% - var(--skills-width));
-    transition-delay: calc(
-      var(--transition-delay) + var(--transition-delay-step) * 3
-    );
+    width: 260px;
+    transition-delay: 0.6s;
   }
-  
+
   .chart-wrapper .chart-skills li:nth-child(5)::before {
-    width: calc(38% - var(--skills-width));
-    transition-delay: calc(
-      var(--transition-delay) + var(--transition-delay-step) * 4
-    );
+    width: 200px;
+    transition-delay: 0.6s;
   }
   
+  
+  .chart-wrapper .chart-skills li:nth-child(6)::before {
+    width: 100px;
+    transition-delay: 0.6s;
+  }
+
+  
+  .chart-wrapper .chart-skills li:nth-child(7)::before {
+    width: 50px;
+    transition-delay: 0.6s;
+  }
+
   .chart-wrapper .chart-skills span {
     display: inline-block;
     width: var(--skills-width);
@@ -111,7 +112,7 @@
   }
   
   .chart-wrapper .chart-levels li {
-    border-right: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid #f6f6f2;
   }
   
   .chart-wrapper .chart-levels li:last-child {
