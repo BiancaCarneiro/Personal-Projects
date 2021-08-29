@@ -63,7 +63,7 @@ ul {
 
 #change-text{
     position: absolute;
-    right: 500px;
+    right: 480px;
     top: 175px;
     color: #f6f6f2;
     background-color: #4d9297;
@@ -75,14 +75,5 @@ ul {
 }
 
 #change-text:hover{
-    position: absolute;
-    right: 500px;
-    top: 175px;
-    color: #f6f6f2;
     background-color: rgb(7, 139, 139);
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    border: 2px solid #f6f6f2;
-    border-radius: 20%;
 }
