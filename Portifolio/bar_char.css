@@ -24,6 +24,7 @@
       align-content: left;
       display: flex;
       height: 500px;
+      width: auto;
   }
 
   .div_skills{
@@ -31,6 +32,7 @@
       justify-content: left;
       align-items: center;
       flex-grow: 1;
+      position: relative;
   }
   
   .chart-wrapper {
@@ -52,6 +54,7 @@
   .chart-wrapper .chart-skills li::after {
     width: 330px;
     background: rgba(4, 68, 68, 0.3);
+    position: relative;
   }
   
   .chart-wrapper .chart-skills li::before {
@@ -133,7 +136,7 @@
     width: 100%;
   }
 
-  @-webkit-keyframes show-bar-one{
+  @keyframes show-bar-one{
     0% {
       width: 0;
     }
@@ -142,7 +145,7 @@
     }
   }
   
-  @-webkit-keyframes show-bar-two {
+  @keyframes show-bar-two {
     0% {
       width: 0;
     }
@@ -151,7 +154,7 @@
     }
   }
   
-  @-webkit-keyframes show-bar-three {
+  @keyframes show-bar-three {
     0% {
       width: 0;
     }
@@ -160,7 +163,7 @@
     }
   }
   
-  @-webkit-keyframes show-bar-four {
+  @keyframes show-bar-four {
     0% {
       width: 0;
     }
@@ -169,7 +172,7 @@
     }
   }
 
-  @-webkit-keyframes show-bar-five {
+  @keyframes show-bar-five {
     0% {
       width: 0;
     }
@@ -178,7 +181,7 @@
     }
   }
 
-  @-webkit-keyframes show-bar-six {
+  @keyframes show-bar-six {
     0% {
       width: 0;
     }
@@ -187,7 +190,7 @@
     }
   }
 
-  @-webkit-keyframes show-bar-seven {
+  @keyframes show-bar-seven {
     0% {
       width: 0;
     }
