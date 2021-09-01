@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f6f6f2;
@@ -15,8 +19,8 @@ img{
 }
 
 header{
-    margin: -8px;
-    padding: 1px 550px 1px 10px;
+    margin: -20px;
+    padding: 20px;
     background-color: rgb(7, 139, 139);
 }
 
@@ -38,9 +42,9 @@ ul {
     padding-left: 20px;
 }
 
-.column{
-    float:left;
-    width: 50%;
+[class*="col-"] {
+  float: left;
+  padding: 15px;
 }
 
 .row:after{
@@ -76,4 +80,19 @@ ul {
 
 #change-text:hover{
     background-color: rgb(7, 139, 139);
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+@media only screen and (min-width: 600px) {
+.col-s-9 {width: 75%;}
+}
+
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+.col-6 {width: 50%;}
 }
