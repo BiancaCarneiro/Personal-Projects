@@ -2,10 +2,6 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f6f6f2;
     font-size: large;
-    height: auto;
-    width: auto;
-    background-color: #4d9297;
-    padding-left: 40px;
 }
 
 img{
@@ -14,29 +10,26 @@ img{
     max-width: 200px;
     height: auto;
     width: auto;
-    left: 40px;
     border: 5px solid rgb(7, 139, 139);
     border-radius: 100%;
-    align-items: right;
 }
 
 header{
     margin: -8px;
-    padding: 10px 120px 1px 10px; 
+    padding: 1px 5px 1px 10px;
     background-color: rgb(7, 139, 139);
-    width: 100%;
+}
+
+body{
+    background-color: #4d9297;
 }
 
 a{
     color: #f6f6f2;
-    height: auto;
-    width: auto;
 }
 
 ul {
   list-style: none;
-  height: auto;
-  width: auto;
 }
 
 .titles{
@@ -45,6 +38,16 @@ ul {
     padding-left: 20px;
 }
 
+.column{
+    float:left;
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .shift{
     padding-left: 20px;
@@ -52,18 +55,16 @@ ul {
 
 #emails{
     display: none;
-    padding-left: 40px;
 }
 
 #where-to-find-me{
     display: block;
-    padding-left: 40px;
 }
 
 #change-text{
-    position: relative;
-    left: 15px;
-    top: 55px;
+    position: absolute;
+    right: 480px;
+    top: 100px;
     color: #f6f6f2;
     background-color: #4d9297;
     text-align: center;
