@@ -16,7 +16,7 @@ img{
 
 header{
     margin: -8px;
-    padding: 1px 5px 1px 10px;
+    padding: 1px 550px 1px 10px;
     background-color: rgb(7, 139, 139);
 }
 
@@ -62,9 +62,9 @@ ul {
 }
 
 #change-text{
-    position: absolute;
-    right: 480px;
-    top: 100px;
+    position: relative;
+    left: 270px;
+    top: 55px;
     color: #f6f6f2;
     background-color: #4d9297;
     text-align: center;
