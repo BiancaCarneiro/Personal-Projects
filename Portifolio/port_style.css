@@ -57,6 +57,10 @@ ul {
     padding-left: 20px;
 }
 
+.double-shift{
+    padding-left: 40px;
+}
+
 #emails{
     display: none;
 }
