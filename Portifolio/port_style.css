@@ -8,6 +8,12 @@ body{
     font-size: large;
 }
 
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color:#f6f6f2;
+    font-size: 25px;
+}
+
 img{
     display: inline-flex;
     max-height: 300px;
@@ -69,10 +75,11 @@ ul {
     display: block;
 }
 
+/* Button */
 #change-text{
     position: relative;
-    left: 270px;
-    top: 55px;
+    left: 350px;
+    top: 58px;
     color: #f6f6f2;
     background-color: #4d9297;
     text-align: center;
