@@ -13,7 +13,7 @@
 
   <h2>Photo to black and white</h2>
   <p>Latest changes: 20/08</p>
-  <p>Libraries used: PIL and threading</p>
+  <p>Libraries used: PIL, opencv and threading</p>
     <dt>Objectives</dt>
       <dd>
         <ul>
