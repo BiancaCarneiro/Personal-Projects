@@ -1,6 +1,6 @@
 import cv2
 
-image = "pictures\pic1.jpg"
+image = "pictures\pic2.jpg"
 
 img = cv2.imread(image)
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -8,5 +8,6 @@ img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 cv2.imshow("Original", img)
 cv2.imshow("Black and white", img_gray)
+#cv2.imwrite('black-and-white.jpg',img_gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
