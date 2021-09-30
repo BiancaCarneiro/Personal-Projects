@@ -10,7 +10,3 @@
         </ul>
       </dd>
   </dl>
-
-  <h2>Photo to black and white</h2>
-  <p> CREATED A REPOSITORY FOR IT </p>
-<body>
