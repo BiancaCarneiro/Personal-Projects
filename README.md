@@ -6,7 +6,7 @@
     <dt>Objectives</dt>
       <dd>
         <ul>
-          <li>Create a personal website using HTML/CSS and JavaScripts</li>
+          <li>Create a personal website using HTML/CSS and JavaScript</li>
         </ul>
       </dd>
   </dl>
