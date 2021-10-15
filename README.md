@@ -10,3 +10,12 @@
         </ul>
       </dd>
   </dl>
+  <h2>PPM to black-and-white</h2>
+  <dl>
+    <dt>Features</dt>
+      <dd>
+        <ul>
+          <li>Turns a ppm picture into black and white using CPU threads</li>
+        </ul>
+      </dd>
+<body>
