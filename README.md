@@ -18,4 +18,9 @@
           <li>Turns a ppm picture into black and white using CPU threads</li>
         </ul>
       </dd>
+  </dl>
+  <h2>Race Game</h2>
+  <p><i>Race game made in arduino.</i></p> 
+  <h3>Circuit</h3>
+  <img width="40%" src="https://github.com/BiancaCarneiro/Personal-Projects/blob/master/Race%20Game/Circuit.png?raw=true" alt="circuit">
 <body>
