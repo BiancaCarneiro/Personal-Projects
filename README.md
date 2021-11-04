@@ -21,6 +21,7 @@
   </dl>
   <h2>Race Game</h2>
   <p><i>Race game made in arduino.</i></p> 
+  <a href="https://www.tinkercad.com/things/7DM5e6hCLtY">TinkedCad Link</a>
   <h3>Circuit</h3>
   <img width="40%" src="https://github.com/BiancaCarneiro/Personal-Projects/blob/master/Race%20Game/Circuit.png?raw=true" alt="circuit">
 <body>
